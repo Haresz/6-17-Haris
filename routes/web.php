@@ -37,3 +37,9 @@ Route::get('/gallery', function (){
         "title" => "Gallery"
     ]);
 });
+
+Route :: get("/contacts", function(){
+    return view('contacts', [
+        "title" => "Contacts"
+    ]);
+});
